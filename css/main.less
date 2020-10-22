@@ -166,6 +166,14 @@ header {
 			border-radius: 30px;
 			cursor: pointer;
 			margin-bottom: 20px;
+			transition: all 0.3s;
+
+			&:hover {
+				border: 1px solid #fff;
+				background-color: @blue;
+				color: #fff;
+				transition: all 0.3s;
+			}
 		}
 
 		.block_2_but_yellow {
@@ -178,10 +186,16 @@ header {
 			border-radius: 30px;
 			background-color: @yellow;
 			cursor: pointer;
+			transition: all 0.3s;
 
 			-webkit-box-shadow: 3px 7px 12px -6px rgba(0, 0, 0, 0.75);
 			-moz-box-shadow: 3px 7px 12px -6px rgba(0, 0, 0, 0.75);
 			box-shadow: 3px 7px 12px -6px rgba(0, 0, 0, 0.75);
+
+			&:hover {
+				color: #fff;
+				transition: all 0.3s;
+			}
 		}
 	}
 
@@ -229,12 +243,57 @@ header {
 		-moz-box-shadow: 3px 7px 12px -6px rgba(0, 0, 0, 0.75);
 		box-shadow: 3px 7px 12px -6px rgba(0, 0, 0, 0.75);
 
-		margin:  0 auto;
+		margin: 0 auto;
 		cursor: pointer;
+		transition: all 0.3s;
+
+		&:hover {
+			color: #fff;
+			transition: all 0.3s;
+		}
 	}
 }
 
 // end block_2
+
+
+
+
+// block_3
+.block_3 {
+	background: url('../../img/block_3_bg.png') no-repeat center center / cover;
+	min-height: 500px;
+	padding: 76px 0 65px 0;
+
+	h2 {
+		font-size: 32px;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	.block_3_content {
+		margin-top: 32px;
+
+		.block_3_content_item {
+			// border: 1px solid red;
+			text-align: center;
+
+			h4 {
+				font-size: 18px;
+				font-weight: 500;
+			}
+		}
+
+		.block_2_row_mod
+		{
+			margin-top: 82px;
+		}
+	}
+
+}
+
+// end block_3
+
 
 
 
@@ -350,9 +409,13 @@ header {
 		font-size: 22px;
 	}
 
-	.block_2 .block_2_video h2
-	{
+	.block_2 .block_2_video h2 {
 		font-size: 28px;
+	}
+
+	.block_3 .block_3_content .block_3_content_item
+	{
+		margin-top: 50px;
 	}
 
 
@@ -369,13 +432,11 @@ header {
 		width: 100%;
 	}
 
-	.block_2 .block_2_video h2
-	{
+	.block_2 .block_2_video h2 {
 		font-size: 22px;
 	}
 
-	.block_2 .block_2_last_but
-	{
+	.block_2 .block_2_last_but {
 		width: 100%;
 	}
 }
@@ -386,8 +447,7 @@ header {
 		font-size: 27px;
 	}
 
-	.block_2 .block_2_last_but
-	{
+	.block_2 .block_2_last_but {
 		font-size: 19px;
 	}
 }
@@ -410,20 +470,17 @@ header {
 		width: 300px;
 	}
 
-	.block_2 .block_2_video h2
-	{
+	.block_2 .block_2_video h2 {
 		font-size: 17px;
 	}
 
-	.block_2 .block_2_last_but
-	{
+	.block_2 .block_2_last_but {
 		font-size: 14px;
 	}
 
-	.block_2 .block_2_video
-	{
+	.block_2 .block_2_video {
 		border-radius: 10px;
 	}
 
-	
+
 }
