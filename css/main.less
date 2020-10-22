@@ -36,11 +36,19 @@ header {
 			display: flex;
 			padding-top: 10px;
 
+			.menu_but {
+				display: none;
+				font-size: 25px;
+				color: #fff;
+				cursor: pointer;
+			}
+
 			nav {
 				width: 100%;
 
 				ul {
 					margin-bottom: 0;
+					padding-left: 0;
 					width: 100%;
 					text-align: right;
 
@@ -107,13 +115,127 @@ header {
 
 
 
-
-
-
-
-
-
-
 // -----------------------------MEDIA------------------------------------------------
 
-@media screen and(max-width: 1200px) {}
+@media screen and(max-width: 992px) {
+	header .header_menu .header_menu_nav nav ul {
+		display: none;
+	}
+
+	.menu_but {
+		display: block !important;
+	}
+
+	header .header_menu .header_menu_nav nav {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	header .header_menu .header_menu_nav nav ul li {
+		display: block;
+	}
+
+	header .header_content h1 {
+		font-size: 50px;
+	}
+
+	header .header_content h3 {
+		font-size: 18px;
+	}
+
+	header {
+		min-height: 300px;
+		padding-bottom: 70px;
+	}
+
+
+	header .header_menu .header_menu_nav nav {
+		position: relative;
+	}
+
+	header .header_menu .header_menu_nav {
+		width: 80%;
+		display: flex;
+		padding-top: 10px;
+		flex-direction: column;
+		align-items: flex-end;
+		flex-flow: column-reverse;
+		justify-content: flex-end;
+	}
+
+	header .header_menu .header_menu_logo
+	{
+		width: 100%;
+		text-align: left;
+	}
+
+	header .header_menu
+	{
+		flex-wrap: wrap;
+	}
+
+
+	header .header_menu .header_menu_nav
+	{
+		width: 100%;
+	}
+
+	header .header_menu .header_menu_nav nav ul
+	{
+		text-align: center;
+		background-color: rgba(255, 255, 255, 0.3);
+		padding: 20px 0;
+	}
+
+	header .header_menu
+	{
+		position: relative;
+	}
+
+	header .header_menu .header_menu_nav .menu_but
+	{
+		position: absolute;
+		top: 15px;
+		right: 0;
+	}
+
+	header .header_menu .header_menu_nav nav ul li {
+		
+		padding: 2px 0;
+		font-size: 21px;
+
+	}
+
+
+}
+
+
+
+@media screen and(max-width: 768px) {
+	header .header_content h1 {
+		font-size: 37px;
+	}
+
+	header .header_content h3 {
+		width: 100%;
+	}
+}
+
+
+@media screen and(max-width: 576px) {
+	header .header_content h1 {
+		font-size: 27px;
+	}
+}
+
+
+@media screen and(max-width: 400px) {
+	header .header_content h1 {
+		font-size: 20px;
+	}
+
+	header .header_content h3 {
+		font-size: 15px;
+	}
+}

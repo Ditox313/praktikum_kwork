@@ -1,7 +1,7 @@
-$(document).ready(function() {https://clck.ru/F5MdE
+$(document).ready(function() {
    $('.menu_but').click(function()
    {
-   	$('.nav_menu_list').slideToggle(350,function()
+   	$('header .header_menu .header_menu_nav nav ul').slideToggle(350,function()
    		{
    			if($(this).css('display')==='none')
 				{
