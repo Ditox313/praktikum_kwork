@@ -5,6 +5,59 @@
   width: 100%;
 }
 /*------------------------------------------------------------------------*/
-h1 {
-  font-family: 'Rubik', sans-serif;
+header {
+  min-height: 550px;
+  background: #00A9FF;
+  padding-top: 30px;
+  background: url('../../img/header_bg.png') no-repeat center center / cover;
+}
+header .header_menu {
+  display: flex;
+}
+header .header_menu .header_menu_logo {
+  width: 20%;
+}
+header .header_menu .header_menu_nav {
+  width: 80%;
+  display: flex;
+  padding-top: 10px;
+}
+header .header_menu .header_menu_nav nav {
+  width: 100%;
+}
+header .header_menu .header_menu_nav nav ul {
+  margin-bottom: 0;
+  width: 100%;
+  text-align: right;
+}
+header .header_menu .header_menu_nav nav ul li {
+  list-style: none;
+  display: inline-block;
+  transition: all 0.3s;
+}
+header .header_menu .header_menu_nav nav ul li a {
+  color: #fff;
+  padding-left: 13px;
+}
+header .header_menu .header_menu_nav nav ul li a:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+  color: #fff;
+  text-decoration: none;
+}
+header .header_content h1 {
+  margin-top: 50px;
+  font-size: 64px;
+  line-height: 142%;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+header .header_content h3 {
+  margin-top: 50px;
+  width: 50%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 125.5%;
+  color: #fff;
 }
