@@ -69,6 +69,7 @@ header .header_content h3 {
   color: #fff;
 }
 .block_2 {
+  background: url('../../img/block_2_bg.png') no-repeat center 100px;
   margin-top: 92px;
   margin-bottom: 92px;
 }
@@ -284,5 +285,8 @@ header .header_content h3 {
   }
   .block_2 .block_2_last_but {
     font-size: 14px;
+  }
+  .block_2 .block_2_video {
+    border-radius: 10px;
   }
 }
