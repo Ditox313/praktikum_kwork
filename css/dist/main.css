@@ -271,6 +271,26 @@ header .header_content h3 {
   font-weight: 400;
   margin-top: 30px;
 }
+.block_5 {
+  padding: 92px 0;
+  background: url('../../img/block_5_bg.png') no-repeat center center / cover;
+}
+.block_5 .block_5_item_img {
+  padding-top: 40px;
+}
+.block_5 .block_5_item_text h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.block_5 .block_5_item_text h4 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.block_5 .block_5_item_text .block_5_item_text_last {
+  margin-top: 40px;
+}
 @media screen and (max-width: 1200px) {
   .block_2 .block_2_title h2 {
     font-size: 28px;
@@ -361,6 +381,13 @@ header .header_content h3 {
   .block_4 .block_4_title h2 {
     font-size: 30px;
   }
+  .block_5 .block_5_item_img {
+    text-align: center;
+    margin-bottom: 92px;
+  }
+  .block_4 {
+    background: url(../../img/block_4_bg.png) no-repeat bottom right;
+  }
 }
 @media screen and (max-width: 768px) {
   header .header_content h1 {
@@ -426,5 +453,8 @@ header .header_content h3 {
   }
   .block_4 .block_4_title h2 {
     font-size: 22px;
+  }
+  .block_5 .block_5_item_text h3 {
+    font-size: 29px;
   }
 }
