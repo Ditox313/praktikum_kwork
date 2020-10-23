@@ -423,6 +423,31 @@ header .header_content h3 {
   color: #fff;
   transition: all 0.3s;
 }
+footer {
+  background-color: #151C24;
+  color: #fff;
+  padding: 92px 0 110px 0;
+}
+footer .footer_content_item_1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+footer .footer_content_item_1 .footer_whatsapp {
+  line-height: 26px;
+}
+footer .footer_content_item_1 p {
+  margin-bottom: 30px;
+}
+footer .footer_content_item_1 .footer_social_list a {
+  display: inline-block;
+  margin-top: 20px;
+}
+footer .footer_content_item_2 .footer_logo {
+  margin-bottom: 30px;
+}
+footer .footer_content_item_2 p {
+  font-size: 18px;
+}
 @media screen and (max-width: 1200px) {
   .block_2 .block_2_title h2 {
     font-size: 28px;
@@ -563,6 +588,18 @@ header .header_content h3 {
   .block_7 .block_7_row_2 .block_7_form form {
     margin-top: 40px;
     width: 90%;
+  }
+  footer .footer_content_item_1 p {
+    text-align: center;
+  }
+  footer .footer_content_item_2 p {
+    text-align: center;
+  }
+  footer .footer_content_item_2 .footer_logo {
+    text-align: center;
+  }
+  footer {
+    padding-bottom: 52px;
   }
 }
 @media screen and (max-width: 576px) {
