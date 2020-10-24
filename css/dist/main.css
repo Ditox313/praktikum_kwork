@@ -448,6 +448,14 @@ footer .footer_content_item_2 .footer_logo {
 footer .footer_content_item_2 p {
   font-size: 18px;
 }
+.but_up {
+  font-size: 40px;
+  color: #00A9FF;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+}
 @media screen and (max-width: 1200px) {
   .block_2 .block_2_title h2 {
     font-size: 28px;
